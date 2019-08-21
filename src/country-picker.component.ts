@@ -3,7 +3,7 @@ import * as _ from 'lodash';
 
 import { ICountry } from './country.interface';
 import { CountryPickerService } from './country-picker.service';
-
+//parent component
 @Component({
   selector: 'countryPicker',
   template: `<select class="form-control form-control-sm">
