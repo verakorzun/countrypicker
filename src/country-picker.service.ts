@@ -21,7 +21,7 @@ export class CountryPickerService {
     this.data = this.loadData();
   }
 
-  private loadData(): Observable<ICountry[]> {
+  private loadData(): Observable<ICountry[]> { //!!!!!!
     return this.http.get(this.baseUrl + this.dataUrl)
       .map((res: Response) => { return res.json() || {} })
       .catch(this.handleError);
