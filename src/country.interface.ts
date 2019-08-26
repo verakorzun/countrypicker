@@ -30,9 +30,9 @@ export interface ICountry {
             common: string;
         };
     };
-    latlng: [number];
-    demonym: string;
-    landlocked: boolean;
+    latlng: [number]; //lattitude-longitude
+    demonym: string; //population
+    landlocked: boolean; //blocked
     borders: [string];
     area: number;
 }

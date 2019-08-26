@@ -31,7 +31,8 @@ export class CountryPickerService {
     let errMsg: string;
     if (error instanceof Response) {
       if (error.status === 404) {
-        errMsg = 'Error loading countries.json file. Please configure WebPack and load countries.json assets to your root folder';
+        errMsg = 'Error loading countries.json file.
+			please check location of the file on server';
       }
       const body = error.json() || '';
       const err = body.error || JSON.stringify(body);
