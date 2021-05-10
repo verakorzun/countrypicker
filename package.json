@@ -24,7 +24,7 @@
   },
   "main": "./dist/index.js",
   "dependencies": {
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "world-countries": "git+https://github.com/mledoze/countries.git"
   },
   "devDependencies": {
