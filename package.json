@@ -28,7 +28,7 @@
     "world-countries": "git+https://github.com/mledoze/countries.git"
   },
   "devDependencies": {
-    "@angular/core": "^2.0.0",
+    "@angular/core": "^11.0.5",
     "@angular/common": "^2.0.0",
     "codelyzer": "^0.0.28",
     "rxjs": "^5.0.1",
